@@ -1,0 +1,323 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            text-align: center;
+            background: url('https://www.loliapi.com/acg') fixed no-repeat;background-size: cover;
+            width: SY;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        .div1 {
+            text-shadow : rgba(7, 243, 58, 0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+            text-align: center;
+            position: relative;
+            text-transform: uppercase;
+            color:rgb(229, 255, 0);
+            font-size: 3vw;
+            letter-spacing: 1.2vw;
+            font-weight: 700;
+            padding-bottom: 15px;
+            ;
+        }
+
+        .owText {
+
+  
+  
+  left: 0;
+  letter-spacing: 5px;
+
+  font-size: 4vw;
+  text-align: center;
+  text-transform: uppercase;
+  
+  
+  animation: move linear 5000ms infinite;  
+}
+
+@keyframes move {
+  0% {
+    text-shadow:
+      4px -4px 0 hsla(0, 100%, 50%, 1), 
+      3px -3px 0 hsla(0, 100%, 50%, 1), 
+      2px -2px 0 hsla(0, 100%, 50%, 1), 
+      1px -1px 0 hsla(0, 100%, 50%, 1),
+      -4px 4px 0 hsla(180, 100%, 50%, 1), 
+      -3px 3px 0 hsla(180, 100%, 50%, 1), 
+      -2px 2px 0 hsla(180, 100%, 50%, 1), 
+      -1px 1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }
+  25% {    
+    text-shadow:      
+      -4px -4px 0 rgb(129, 175, 175), 
+      -3px -3px 0 hsla(180, 100%, 50%, 1), 
+      -2px -2px 0 hsla(180, 100%, 50%, 1), 
+      -1px -1px 0 hsla(180, 100%, 50%, 1),
+      4px 4px 0 hsla(0, 100%, 50%, 1), 
+      3px 3px 0 hsla(0, 100%, 50%, 1), 
+      2px 2px 0 hsla(0, 100%, 50%, 1), 
+      1px 1px 0 hsla(0, 100%, 50%, 1)      
+    ;
+  }
+  50% {
+    text-shadow:
+      -4px 4px 0 hsla(0, 100%, 50%, 1), 
+      -3px 3px 0 hsla(0, 100%, 50%, 1), 
+      -2px 2px 0 hsla(0, 100%, 50%, 1), 
+      -1px 1px 0 hsla(0, 100%, 50%, 1),
+      4px -4px 0 hsla(180, 100%, 50%, 1), 
+      3px -3px 0 rgb(28, 151, 151), 
+      2px -2px 0 hsla(180, 100%, 50%, 1), 
+      1px -1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }
+  75% {
+    text-shadow:
+      4px 4px 0 hsla(180, 100%, 50%, 1), 
+      3px 3px 0 hsla(180, 100%, 50%, 1), 
+      2px 2px 0 hsla(180, 100%, 50%, 1), 
+      1px 1px 0 hsla(180, 100%, 50%, 1),
+      -4px -4px 0 hsla(0, 100%, 50%, 1), 
+      -3px -3px 0 hsla(0, 100%, 50%, 1), 
+      -2px -2px 0 hsla(0, 100%, 50%, 1), 
+      -1px -1px 0 hsla(0, 100%, 50%, 1)      
+    ;
+  }
+  100% {
+    text-shadow:
+      4px -4px 0 hsla(0, 100%, 50%, 1), 
+      3px -3px 0 hsla(0, 100%, 50%, 1), 
+      2px -2px 0 hsla(0, 100%, 50%, 1), 
+      1px -1px 0 hsla(0, 100%, 50%, 1),
+      -4px 4px 0 hsla(180, 100%, 50%, 1), 
+      -3px 3px 0 hsla(180, 100%, 50%, 1), 
+      -2px 2px 0 hsla(180, 100%, 50%, 1), 
+      -1px 1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }  
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+
+.d2 {
+  fill: none;
+  stroke-width: 6;
+  stroke-linejoin: round;
+  stroke-dasharray: 70 330;
+  stroke-dashoffset: 0;
+  -webkit-animation: stroke 6s infinite linear;
+  animation: stroke 6s infinite linear;
+}
+
+.d2:nth-child(5n + 1) {
+  stroke: #F2385A;
+  -webkit-animation-delay: -1.2s;
+  animation-delay: -1.2s;
+}
+.d2:nth-child(5n + 2) {
+  stroke: #F5A503;
+  -webkit-animation-delay: -2.4s;
+  animation-delay: -2.4s;
+}
+
+.d2:nth-child(5n + 3) {
+  stroke: #8add24;
+  -webkit-animation-delay: -3.6s;
+  animation-delay: -3.6s;
+}
+
+.d2:nth-child(5n + 4) {
+  stroke: #9dff00;
+  -webkit-animation-delay: -4.8s;
+  animation-delay: -4.8s;
+}
+
+.d2:nth-child(5n + 5) {
+  stroke: #00ff22;
+  -webkit-animation-delay: -6s;
+  animation-delay: -6s;
+}
+
+@-webkit-keyframes stroke {
+  100% {
+    stroke-dashoffset: -400;
+  }
+}
+
+@keyframes stroke {
+  100% {
+    stroke-dashoffset: -400;
+  }
+}
+
+        *  .owText {
+            color:#e62915;
+            padding-top:10px;
+            font-size: 5vw;
+            text-shadow: 1.5px 1.5px 0 #fff, 0px 1.5px 0 #fff, -1.5px -1.5px 0 #fff, -1.5px -1.5px 0 #fff, -1.5px 1.5px 0 #fff, 1.5px -1.5px 0 #fff, 0.77782px 0.77782px 0 #e62915, 1.55563px 1.55563px 0 #e62915, 2.33345px 2.33345px 0 #e62915, 3.11127px 3.11127px 0 #e62915, 3.88909px 3.88909px 0 #e62915, 4.6669px 4.6669px 0 #e62915, 5.44472px 5.44472px 0 #e62915, 6.22254px 6.22254px 0 #e62915, 7.00036px 7.00036px 0 #e62915, 7.77817px 7.77817px 0 #e62915;
+        } 
+
+        .d1 {
+            font-size: 5vw;
+            color: #2afc00;
+            text-shadow: 1.5px 1.5px 0 #333, 0px 1.5px 0 #333, -1.5px -1.5px 0 #333, -1.5px -1.5px 0 #333, -1.5px 1.5px 0 #333, 1.5px -1.5px 0 #333, 0.77782px 0.77782px 0 #aaaaaa, 1.55563px 1.55563px 0 #aaaaaa, 2.33345px 2.33345px 0 #aaaaaa, 3.11127px 3.11127px 0 #aaaaaa, 3.88909px 3.88909px 0 #aaaaaa, 4.6669px 4.6669px 0 #aaaaaa, 5.44472px 5.44472px 0 #aaaaaa, 6.22254px 6.22254px 0 #aaaaaa, 7.00036px 7.00036px 0 #aaaaaa, 7.77817px 7.77817px 0 #aaaaaa;
+        }
+
+        .canvas {
+            height: 100%;
+            position: absolute;
+            left:50%;
+            width: 100%;
+            top:50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        .progress {
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+}
+.progress > li {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  color: #b3ff00;
+  font-family: Lato;
+  font-weight: 100;
+  
+}
+.progress > li:before {
+  content: attr(data-name);
+  position: absolute;
+  width: 100%;
+  bottom: -2rem;
+  font-weight: 400;
+}
+.progress > li:after {
+  content: attr(data-percent);
+  position: absolute;
+  width: 100%;
+  top: 3.7rem;
+  left: 0;
+  font-size: 2rem;
+  text-align: center;
+}
+.progress svg {
+  width: 10rem;
+  height: 10rem;
+}
+.progress svg:nth-child(2) {
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+.progress svg:nth-child(2) path {
+  fill: none;
+  stroke-width: 25;
+  stroke-dasharray: 629;
+  stroke: #fff;
+  opacity: .9;
+  -webkit-animation: load 10s;
+          animation: load 10s;
+}
+.d2{
+    text-shadow : rgb(1, 248, 22) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+}
+.text{
+  
+    background-image: -webkit-linear-gradient(left,rgb(35, 35, 211),#66ff00 10%,#cc00ff 20%,#CC00CC 30%, #6f6fc4 40%, #00FFFF 50%,#CCCCFF 60%,#CC00CC 70%,#CC00FF 80%,#66FFFF 90%,blue 100%);
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+    -webkit-background-size: 200% 100%; 
+    -webkit-animation: masked-animation 4s linear infinite;
+    font-size: 25px;
+    padding-bottom:10px;
+}
+@keyframes masked-animation {
+    0% {
+        background-position: 0  0;
+    }
+    100% {
+        background-position: -100%  0;
+    }
+}
+
+    </style>
+</head>
+<script src="https://cdn.staticfile.org/jquery/3.5.1/jquery.min.js"></script>
+<div id="music" key="62b81d6dbb738" api="https://music.xfyun.club"></div><script id="xplayer" src="https://player.xfyun.club/Static/player9/js/player.js" ></script>
+<body>
+
+    <canvas id="canvas"></canvas>
+    <audio src="Music.mp3" autoplay loop></audio>
+    <div class="canvas">
+        <ul class="progress" style="padding-top: 110px;">
+            
+            
+            
+            <li  data-percent="100%">
+                <svg viewBox="-10 -10 220 220">
+                <g fill="none" stroke-width="6" transform="translate(100,100)">
+                <path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"/>
+                <path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#cl2)"/>
+                <path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#cl3)"/>
+                <path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#cl4)"/>
+                <path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#cl5)"/>
+                <path d="M -86.6,-50 A 100,100 0 0,1 0,-100" stroke="url(#cl6)"/>
+                </g>
+                </svg>
+                <svg viewBox="-10 -10 220 220">
+                <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="629"></path>
+                </svg>
+            </li>
+        </ul>
+        <svg width="0" height="0">
+            <defs>
+            <linearGradient id="cl1" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="1">
+                <stop stop-color="#618099"/>
+                <stop offset="100%" stop-color="#8e6677"/>
+            </linearGradient>
+            <linearGradient id="cl2" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0" y2="1">
+                <stop stop-color="#8e6677"/>
+                <stop offset="100%" stop-color="#9b5e67"/>
+            </linearGradient>
+            <linearGradient id="cl3" gradientUnits="objectBoundingBox" x1="1" y1="0" x2="0" y2="1">
+                <stop stop-color="#9b5e67"/>
+                <stop offset="100%" stop-color="#9c787a"/>
+            </linearGradient>
+            <linearGradient id="cl4" gradientUnits="objectBoundingBox" x1="1" y1="1" x2="0" y2="0">
+                <stop stop-color="#9c787a"/>
+                <stop offset="100%" stop-color="#817a94"/>
+            </linearGradient>
+            <linearGradient id="cl5" gradientUnits="objectBoundingBox" x1="0" y1="1" x2="0" y2="0">
+                <stop stop-color="#817a94"/>
+                <stop offset="100%" stop-color="#498a98"/>
+            </linearGradient>
+            <linearGradient id="cl6" gradientUnits="objectBoundingBox" x1="0" y1="1" x2="1" y2="0">
+                <stop stop-color="#498a98"/>
+                <stop offset="100%" stop-color="#618099"/>
+            </linearGradient>
+            </defs>
+            </svg>
+    <div class="div1 owText">   </div>
+    <div class="text">本页面由sb顾宇所写 sdk由abc所写</div>
+    <div class="div1 d3">本页面为SDK登录服务器</div>
+    <div class="div1 d4">季雨3.4GIO</div>
+    <div class="div1 d7">我要开始圈钱啦！</div>   
+    </html>  
